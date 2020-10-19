@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should match the snapshot 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="Wrapper"
+  >
+    <Text
+      handleClick={[Function]}
+      text="Hello World"
+    />
+  </div>
+</div>
+`;
+
+exports[`<App /> should match the snapshot 2`] = `
+<div
+  className="App"
+>
+  <div
+    className="Wrapper"
+  >
+    <Input
+      handleBlur={[Function]}
+      handleChange={[Function]}
+      handleKeyDown={[Function]}
+      inputField={
+        Object {
+          "label": "helloInput",
+          "name": "helloInput",
+        }
+      }
+      value="Hello World"
+    />
+  </div>
+</div>
+`;
+
+exports[`<App /> should match the snapshot after static text has been click 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="Wrapper"
+  >
+    <Input
+      handleBlur={[Function]}
+      handleChange={[Function]}
+      handleKeyDown={[Function]}
+      inputField={
+        Object {
+          "label": "helloInput",
+          "name": "helloInput",
+        }
+      }
+      value="Hello World"
+    />
+  </div>
+</div>
+`;
+
+exports[`<App /> should match the snapshot when first render 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="Wrapper"
+  >
+    <Text
+      handleClick={[Function]}
+      text="Hello World"
+    />
+  </div>
+</div>
+`;

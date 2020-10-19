@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Text /> should match the snapshot when first render 1`] = `
+<Fragment>
+  <Wrapper
+    onClick={[MockFunction]}
+  >
+    <InputText>
+      Hello World
+    </InputText>
+    <Icon />
+  </Wrapper>
+</Fragment>
+`;
+
+exports[`<Text /> should match the snapshot when has error status 1`] = `
+<Fragment>
+  <Wrapper
+    onClick={[MockFunction]}
+  >
+    <InputText>
+      Hello World
+    </InputText>
+    <Icon
+      status="Error"
+    />
+  </Wrapper>
+  <Error>
+    Oops! Something has gone terribly wrong!
+  </Error>
+</Fragment>
+`;

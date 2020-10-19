@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Icon /> should match the snapshot with status Loading 1`] = `
+<LaFontAwesomeIconbel
+  icon="faSpinner"
+  spin={true}
+/>
+`;
+
+exports[`<Icon /> should match the snapshot with status error 1`] = `
+<LaFontAwesomeIconbel
+  icon="faTimes"
+  spin={false}
+/>
+`;
+
+exports[`<Icon /> should match the snapshot with status success 1`] = `
+<LaFontAwesomeIconbel
+  icon="faCheck"
+  spin={false}
+/>
+`;
+
+exports[`<Icon /> should match the snapshot with status undefined 1`] = `""`;

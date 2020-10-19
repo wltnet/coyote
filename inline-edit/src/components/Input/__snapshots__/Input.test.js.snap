@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input /> should match the snapshot 1`] = `
+<Label>
+  <InputField
+    autoFocus={true}
+    name="helloInput"
+    onBlur={[MockFunction]}
+    onChange={[MockFunction]}
+    onKeyDown={[MockFunction]}
+    type="text"
+    value="Hello World"
+  />
+</Label>
+`;

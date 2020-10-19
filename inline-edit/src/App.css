@@ -1,10 +1,19 @@
 .App {
   text-align: center;
+  padding: 50px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.Wrapper {
+  width: 300px;
+  text-align: left;
+  margin: auto;
+  border: 1px dotted #333;
+  padding: 10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
